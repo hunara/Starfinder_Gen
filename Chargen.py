@@ -49,7 +49,9 @@ def RaceSelection():
     racePlanned = input("Have you already decided on a race?\n (Y)es (N)o\n")
     if racePlanned == "y":
         chosenRace = input("What race have you decided to be: ")
-    else:
+    else:        
+        print("Feature incomplete.")
+        return
 
 
 CharacterDefault()
